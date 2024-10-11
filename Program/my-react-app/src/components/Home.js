@@ -1,0 +1,17 @@
+import React from "react";
+import { Link } from "react-router-dom";
+
+function Home() {
+    return (
+        <div>
+            <h1>欢迎来到我们的网站</h1>
+            <p>这是一个使用React和React Router构建的多页面应用示例。</p>
+            <nav className="nav-links">
+                <Link to="/about">关于我们</Link>
+                <Link to="/contact">联系我们</Link>
+            </nav>
+        </div>
+    );
+}
+
+export default Home;
