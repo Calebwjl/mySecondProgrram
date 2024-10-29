@@ -11,7 +11,7 @@ function Contact() {
         <li>电话: 123-456-7890</li>
         <li>地址: 北京市朝阳区xxx街xxx号</li>
       </ul>
-      <Link to="/">返回界面首页</Link>
+      <Link to="/">返回界面の首页</Link>
     </div>
   );
 }
